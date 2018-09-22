@@ -15,7 +15,6 @@ alias gm='git merge'
 alias gpush='git push'
 alias gpull='git pull'
 alias gstash='git stash'
-alias syncgd='java -jar jdrivesync-0.3.0-jar-with-dependencies.jar -l "/Users/treverberryman/Google Drive"'
 alias clr="clear" # Clear your terminal screen
 alias flush="sudo discoveryutil udnsflushcaches" # Flush DNS (Yosemite)
 alias flush="killall -HUP mDNSResponder" # Flush DNS (Mavericks, Mountain Lion, Lion)
@@ -55,10 +54,6 @@ C_BG_LIGHTGRAY="\[\033[47m\]"
 export PS1="$C_GREEN\D{%r} $C_DEFAULT\u$ $C_CYAN\W 👉$C_DEFAULT "
 
 eval $(/usr/libexec/path_helper -s)
-
-##
-# Your previous /Users/treverberryman/.bash_profile file was backed up as /Users/treverberryman/.bash_profile.macports-saved_2017-04-01_at_09:36:18
-##
 
 # MacPorts Installer addition on 2017-04-01_at_09:36:18: adding an appropriate PATH variable for use with MacPorts.
 export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
